@@ -1,0 +1,37 @@
+/*.p{
+    color: var(--color-4);
+    width: 25%!important;
+    border-bottom: solid 0.3rem var(--color-1);
+}
+.p:hover{
+    transition-duration: 0.2s;
+}
+
+.p-img{
+    height: 100%!important;
+    width: 100%!important;
+    object-fit:cover!important;
+}
+
+.p-title{
+    font-weight: 600;
+    display: block;
+}
+
+.p-shop{
+    font-size: 0.7rem;
+    font-weight: 600;
+    width: 17rem;
+    color: var(--c-4);
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.p-price{
+    font-weight: 600;
+    margin-left: 1rem;
+}
+*/

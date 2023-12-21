@@ -1,0 +1,273 @@
+.myProfile{
+    padding: 0 25%;
+    padding-bottom: 15.5%;
+    text-align: center;
+}
+
+.myProfile > aside{
+    margin-top: 5vh;
+    border-bottom: solid 1px var(--color-4);
+    padding-bottom: 1.5vh;
+
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myProfile > aside > p{
+    font-size: 4vh;
+    text-align: left;
+    color: var(--color-4);
+    padding-bottom: 1.5vh;
+}
+
+.myProfile > aside > svg{
+    width: 4vh;
+    height: 4vh;
+    margin-right: 2vh;
+}
+
+.myProfile > form{
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
+
+.myProfile > form > div{
+    display: flex;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.myProfile > form > div > span{
+    width: 49%;
+    margin-left: 1%;
+}
+
+.myProfile > form > div > span > i{
+    color: rgb(204, 0, 0);
+    font-size: 2vh;
+    font-style: normal;
+}
+
+.myProfile > form > div > .inputNormal{
+    width: 45%;
+    padding: 1%;
+    margin-left: 2%;
+    border: solid .1vh var(--color-5);
+    border-radius: .5vh;
+}
+
+.spanNormal{
+    width: 47%;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+
+.myProfile > form > div > .inputEmail{
+    width: 94%;
+    padding: 1%;
+    margin-left: 2%;
+    border: solid .1vh var(--color-5);
+    border-radius: .5vh;
+}
+
+.myProfile > form > div > select{
+    width: 47%;
+    padding: 1%;
+    margin-left: 2%;
+    border: solid .1vh var(--color-5);
+    border-radius: .5vh;
+}
+
+.myProfile > form > div > button{
+    width: 15%;
+    margin-left: auto;
+    font-size: 2vh;
+    background-color: var(--color-4);
+    color: var(--color-2);
+    border: none;
+    border-radius: .5vh;
+    padding: .8vh 0;
+    cursor: pointer;
+}
+
+.text{
+    display: block!important;
+    text-align: center!important;
+    margin-bottom: 20vh;
+}
+
+.text > p{
+    margin: 1vh 0;
+    font-size: 1.7vh;
+    text-align: left;
+    margin-left: .5vw;
+}
+
+.order{
+    text-align: left;
+    padding: 2vh 0;
+    margin-top: 1vh;
+    border-bottom: solid .1vh var(--color-3);
+}
+
+.state{
+    display: flex;
+    align-items: center;
+    margin-left: 1vh;
+    margin-bottom: 1vh;
+}
+
+.state > a{
+    margin-left: auto;
+    font-size: 1.8vh;
+}
+
+.stateColor{
+    height: 1.5vh;
+    width: 1.5vh;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.stateName{
+    font-size: 1.9vh;
+    margin-left: 1vh;
+}
+
+.order > span{
+    font-size: 1.7vh;
+    margin-left: 1vh;
+}
+
+.order > p{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    color: var(--color-5);
+    font-weight: 600;
+}
+
+.order > p > span{
+    margin-left: .5vh;
+    font-weight: 100;
+}
+
+.order > p > svg{
+    height: 2.5vh;
+    margin-right: .9vh;
+    cursor: pointer;
+}
+
+.productOrder{
+    background-color: var(--color-1);
+    height: 13vh;
+    display: flex;
+    padding: 1vh;
+    border-radius: 4px;
+    margin-top: 2vh;
+    border: solid .1vh var(--color-3);
+}
+
+.productOrder > img{
+    height: 100%;
+    width: 10vh;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.productOrder > div{
+    margin-left: 2vh;
+}
+
+
+.productOrder > div > p{
+}
+
+.or-name{
+    font-size: 2.1vh;
+    color: var(--color-4);
+}
+
+.or-shop{
+    font-size: 1.6vh;
+    margin-top: .5vh;
+    font-weight: 600;
+    color: var(--color-5);
+}
+
+.or-size{
+    font-size: 1.7vh;
+    margin: .5vh 0;
+    color: var(--color-5);
+}
+
+.or-price{
+    font-size: 2vh;
+    font-weight: 600;
+    color: var(--color-5);
+}
+
+.noOrders{
+    margin: 15vh;
+    display: flex;
+    justify-content: center;
+    font-size: 1.9vh;
+}
+
+.profileConnect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 0;
+}
+
+.profileConnect > button{
+    padding: 1vh 2vh;
+    font-size: 2.5vh;
+    border-radius: 3px;
+    border: solid .5vh var(--color-3);
+    background-color: var(--color-2);
+}
+
+@media (max-width: 1400px) {
+    .myProfile{
+        padding: 0 20%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .myProfile{
+        padding: 0 15%;
+    }
+}
+
+@media (max-width: 700px) {
+    .myProfile{
+        padding: 0 4%;
+        padding-top: 7%;
+        padding-bottom: 50%;
+    }
+
+    .myProfile > form > div{
+        margin: 1.5vh 0;
+    }
+
+    .myProfile > form > div > button{
+        width: 25%;
+    }
+    .noOrders{
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    .or-name{
+        font-size: 1.8vh;
+    }
+    .state > a{
+        font-size: 1.6vh;
+    }
+}

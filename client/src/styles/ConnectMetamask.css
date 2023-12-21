@@ -1,0 +1,87 @@
+.ConnectMetamask{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 2vh;
+    padding: 3vh;
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izqCW{
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-6);
+    border-radius: 1vh;
+}
+
+.izqCW >  p{
+    margin: 2vh;
+    color: var(--color-2);
+}
+
+.izqCW > button{
+    height: 4vh;
+    outline: none;
+    background-color: var(--color-1);
+    border: solid 2px var(--color-3);
+    border-radius: 3px;
+    margin: 2vh;
+    color: var(--color-2);
+    cursor: pointer;
+}
+
+.izqCW > button > img{
+    height: 100%;
+}
+
+.izqCW > button > p{
+    font-weight: 600;
+}
+
+.derCW{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    border: solid 2px var(--color-2);
+    border-radius: 1vh;
+}
+
+.derCW > p{
+    font-size: 2vh;
+    margin: 2vh;
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+
+.derCW > img{
+    height: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.derCW > button{
+    margin: auto;
+    margin-top: 8%;
+    height: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-6);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.derCW > button > svg{
+    height: 50%;
+}
+
+.derCW > button > span{
+    font-weight: 600;
+    font-size: 1.7vh;
+    color: var(--color-2);
+}

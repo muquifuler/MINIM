@@ -1,0 +1,102 @@
+.sellers{
+    padding: 0 25%;
+    margin: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+.block-black{
+    height: 12rem;
+    width: 0.5rem;
+    margin-right: 1rem;
+    background-color: var(--color-4);
+}
+
+.sellers-h1{
+    font-size: 3.8vh;
+    font-weight: 100;
+    margin: 5vh 0;
+    padding-bottom: 2vh;
+    border-bottom: solid 1px var(--color-5);
+}
+
+.p-1{
+    margin-top: 1rem;
+    font-size: 1.9vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    line-height: 4vh;
+    border-left: solid 1px var(--color-5);
+}
+
+.p-1 > b{
+    font-size: 2.5vh;
+    background-color: var(--color-2);
+    border-radius: 3px;
+    padding: .5% 1%;
+    font-weight: 100;
+}
+
+.sellers-title2 > b{
+    font-size: 3vh;
+    background-color: var(--color-2);
+    border-radius: 3px;
+    padding: .5% 1%;
+    font-weight: 100;
+}
+
+.p-2{
+    font-size: 1.9vh;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.sellers-title2{
+    margin-top: 2rem;
+    font-size: 2.2vh;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.sellers-title2 > a{
+    color: #8053a8;
+}
+
+.sellers-hr{
+    border: none;
+    border-bottom: solid 0.3rem black;
+    margin-top: -0.1rem;
+}
+
+@media (max-width: 1600px) {
+    .sellers{
+        padding: 0 15%;
+    }
+}
+
+@media (max-width: 700px) {
+    .sellersBody{
+        position: fixed;
+        overflow-y: scroll;
+        height: 100vh;
+        width: 100vw;
+    }
+    .sellers{
+        padding: 4%;
+        padding-top: 0;
+    }
+    .sellers-h1{
+        margin-bottom: 0;
+        font-size: 4vh;
+        padding-top: 3vh;
+    }
+    .sellers-title2{
+        font-size: 2.5vh;
+        margin-top: 5vh;
+        line-height: 5vh;
+    }
+    .p-1{
+        font-size: 2vh;
+    }
+}

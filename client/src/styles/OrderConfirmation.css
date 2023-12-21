@@ -1,0 +1,86 @@
+.oc-Thanks{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.oc-Thanks > p{
+    font-size: 4vh;
+    margin: 3vh 0 5vh 0;
+}
+
+.oc-Thanks > img{
+    margin-top: 1vh;
+}
+
+.oc-Thanks > button{
+    display: block;
+    margin: 1vh auto;
+    padding: 1% 1.5%;
+    font-size: 1.7vh;
+    background-color: var(--color-2);
+    border-radius: 3px;
+    border: solid .5vh var(--color-3);
+    color: var(--color-4);
+    cursor: pointer;
+}
+
+.oc-Info{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 1%;
+}
+
+.oc-Info > div{
+    background-color: var(--color-2);
+    width: 30%;
+    margin: 0 1vh;
+    padding: 2%;
+    border-radius: 3px;
+    border: solid 2px var(--color-3);
+}
+
+.oc-Info > div > p{
+    margin-bottom: .5vh;
+    font-size: 1.6vh;
+}
+
+.oc-InfoTitle{
+    font-size: 1.8vh;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1vh;
+}
+
+.oc-Info > div > div{
+    display: flex;
+    margin-bottom: .5vh;
+    justify-content: space-between;
+}
+
+.oc-Info > div > div > span{
+    font-size: 1.6vh;
+}
+
+@media (max-width: 700px) {
+    .oc-Thanks{
+        margin: 2vh 0 6vh 0;
+    }
+    .oc-Thanks > p{
+        margin: 0;
+    }
+    
+    .oc-Info{
+        display: block;
+        padding: 0;
+    }
+
+    .oc-Info > div{
+        padding: 5%;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 2vh;
+    }
+}
+
+

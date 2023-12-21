@@ -1,0 +1,144 @@
+.SHOP{
+    margin: auto;
+    width: 70%;
+    padding-bottom: 10vh;
+}
+
+.SHOP > div > .p{
+    width: 25%;
+    padding-bottom: 1%;
+}
+
+.SHOP > div{
+    margin-top: 1vh;
+}
+
+.SHOP > hr{
+    margin: 1vh 0;
+    margin-bottom: 1.5vh;
+    border: none;
+    border-top: solid .1vh var(--color-2);
+}
+
+.shopLoader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56.1vh;
+}
+
+.shop-options{
+    width: 69%;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    outline: none;
+    align-items: end;
+}
+
+.shop-title-img{
+    background-image: url('../assets/bandana.jpg');
+    height: 2rem;
+    width: 100%;
+    background-position: center;
+}
+
+.shop-options > span{
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 1.5vh;
+}
+
+.shop-options > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-options > div > select{
+    font-weight: 600;
+    background-color: var(--color-1);
+    border: solid 1px var(--color-3);
+    box-shadow: 0 0 3px -2.5px rgb(231, 231, 231);
+    color: var(--color-6);
+    border-radius: 3px;
+    margin-left: .5vw;
+    padding: .5vh;
+}
+
+
+.bot-shop-product{
+}
+
+.loading-clothes{
+    text-align: center;
+}
+
+.productsShop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.productsShop > div{
+    width: 23%!important;
+    border-radius: 3px;
+}
+
+
+.productsShop > div > .p{
+    margin-bottom: 0;
+}
+
+.productsMobile{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.productsMobile > div{
+    width: 100%!important;
+    padding-bottom: 1.5vh!important;
+    border-radius: 3px;
+}
+
+@media (max-width: 1000px) {
+    .SHOP{
+        width: 90%;
+    }
+    .shop-options{
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .shop-options{
+        width: 96%;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7vh;
+    }
+
+    .shop-options > div{
+        width: 100%;
+
+    }
+    
+
+    .shop-options > div > select{
+        width: 32%;
+    }
+
+    .shop-options > span{
+        display: none;
+    }
+    .SHOP{
+        display: grid;
+        width: 96%;
+    }
+
+    .SHOP > .p{
+        width: 100%!important;
+    }
+
+}

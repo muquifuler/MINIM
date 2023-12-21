@@ -1,0 +1,114 @@
+.formFaq{
+    margin-bottom: 25vh;
+}
+
+.formFaq > div{
+    margin-bottom: 2vh;
+}
+
+.faq-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-name > div{
+    width: 50%;
+}
+
+.faq-name > div > p{
+    font-size: 1.8vh;
+}
+
+
+.faq-name > div > p > i{
+    color: rgb(204, 0, 0);
+    font-size: 2vh;
+    font-style: normal;
+}
+
+.faq-name > div > input{
+    width: 90%;
+    font-size: 1.6vh;
+    padding: 1vh;
+    margin-top: 1vh;
+    border-radius: 4px;
+    border: solid 1px var(--color-5);
+}
+
+.faq-email{
+
+}
+
+.faq-email > p{
+    font-size: 1.8vh;
+}
+
+.faq-email > p > i{
+    color: rgb(204, 0, 0);
+    font-size: 2vh;
+    font-style: normal;
+}
+
+.faq-email > input{
+    width: 95%;
+    font-size: 1.6vh;
+    padding: 1vh;
+    margin-top: 1vh;
+    border-radius: 4px;
+    border: solid 1px var(--color-5);
+}
+
+.faq-consulta{
+    
+}
+
+.faq-consulta > p{
+    font-size: 1.8vh;
+}
+
+.faq-consulta > p > i{
+    color: rgb(204, 0, 0);
+    font-size: 2vh;
+    font-style: normal;
+}
+
+.faq-consulta > textarea{
+    width: 95%;
+    font-size: 1.6vh;
+    padding: 1vh;
+    margin-top: 1vh;
+    border-radius: 4px;
+    height: 10vh;
+    border: solid 1px var(--color-5);
+    resize: none;
+}
+
+.formFaq > .btnSubmit{
+    padding: 1vh 4vh;
+    font-size: 1.7vh;
+    font-weight: 600;
+    background-color: var(--color-4);
+    border: solid 1px var(--color-5);
+    color: var(--color-2);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+
+    .formFaq{
+        margin-top: 5vh;
+    }
+    
+
+    .faq-name > div > input{
+        width: 82%;
+    }
+    .faq-email > input{
+        width: 91%;
+    }
+    .faq-consulta > textarea{
+        width: 91%;
+    }
+}

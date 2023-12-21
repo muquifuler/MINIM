@@ -1,0 +1,269 @@
+.viewproduct{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 10%;
+    margin-bottom: 10vh;
+}
+
+.viewproduct > img{
+    border-radius: 3px;
+    width: 30%;
+    object-fit: cover;
+}
+
+.viewproduct > div{
+    margin-left: .5vh;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 2.8vh;
+    margin-bottom: 1vh;
+}
+
+.code{
+    color: var(--color-4);
+    font-size: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+.disccount{
+    font-size: 1.7vh;
+    color: rgb(204, 0, 0);
+    font-weight: 600;
+    margin-bottom: 1vh;
+}
+
+.prices > span{
+    font-size: 2vh;
+}
+
+.disccount-price{
+    font-size: 1.5vh!important;
+    color: rgb(204, 0, 0);
+    font-weight: 600;
+    margin-left: .5vw;
+    text-decoration: line-through;
+}
+
+.selectColor{
+    font-size: 1.6vh;
+    margin-top: 5vh;
+}
+
+.selectSize{
+    font-size: 1.6vh;
+    margin-top: 3vh;
+}
+
+.selectColorDiv{
+    display: flex;
+    margin: 1vh 0;
+    padding: 1vh 0 1vh 1vh;
+    border-radius: 3px;
+    background-color: var(--color-2);
+    border: solid 2px var(--color-3);
+}
+
+.selectColorDiv > span{
+    width: 3.5vh;
+    height: 3.5vh;
+    margin-right: 1vh;
+    border-radius: 3px;
+    border: solid 1px transparent;
+}
+
+.colorSel{
+    border: solid 1px var(--color-4)!important;
+}
+
+.sizes{
+    display: flex;
+    margin: 1vh 0;
+    padding: 2% 0 2% 2%;
+    border-radius: 3px;
+    background-color: var(--color-2);
+    border: solid 2px var(--color-3);
+}
+.sizesSel{
+    border: solid 1px var(--color-5)!important;
+    border-radius: 3px!important;
+}
+.sizes > button{
+    height: 3.5vh;
+    width: 16.35%;
+    border: none;
+    background-color: var(--color-2);
+    color: var(--color-4);
+    border: solid 1px transparent;
+    font-size: 1.7vh;
+}
+
+
+
+.sizes > button:hover{
+    border: solid 1px var(--color-5);
+    border-radius: 3px;
+}
+
+.prices{
+    margin: 2vh 0;
+}
+
+.btnView{
+    margin-top: 20%;
+    background-color: var(--color-2);
+    border: solid 2px var(--color-3);
+    color: var(--color-4);
+    border-radius: 3px;
+    padding: 3% 6%;
+    font-size: 1.7vh;
+    cursor: pointer;
+    
+}
+
+.imgs {
+    width: 8%!important;
+    flex-direction: column;
+    height: 55vh;
+    overflow-y: scroll;
+    margin-right: 5vh;
+    scroll-behavior: auto;
+}
+
+.imgs > img {
+    height: 15vh;
+    margin-bottom: .5vh;
+    width: 100%;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.infoView{
+    width: 25vw!important;
+}
+
+.CW{
+    position: absolute;
+    background-color: rgba(19, 19, 19, 0.219);
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reDad{
+}
+
+.reBtn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reBtn > button{
+    margin: 1%;
+    padding: .5% 2%;
+    font-size: 2vh;
+    background-color: var(--color-2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px transparent;
+}
+
+.reBtnSel{
+    border: solid 2px var(--color-3)!important;
+}
+
+.recommended{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 5% 10% 10% 10%;
+    border-top: solid 2px var(--color-3)!important;
+    background-color: var(--color-2);
+    position: relative;
+}
+
+.recommendedDiv{
+    background-image: url('../assets/royal.webp');
+    filter: grayscale(3) opacity(0.1);
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.recommended > div > .p{
+    margin: 0 1vh;
+}
+
+
+
+@media (max-width: 1200px) {
+    .viewproduct{
+       margin: 5vh 5%;
+    }
+    .viewproduct > img{
+        width: 100%!important;
+     }
+    
+}
+
+@media (max-width: 700px) {
+    .viewproduct{
+        display: block;
+        margin: 0;
+        margin-top: 6vh;
+    }
+    .viewproduct > img{
+        width: 96%;
+    }
+    
+    .viewproduct > div{
+        margin-left: 4%;
+        width: 92%;
+        padding-bottom: 3vh;
+    }
+    .imgsMovil{
+        display: flex;
+        height: 15vh;
+        width: 100%!important;
+        margin: 0!important;
+    }
+
+    .imgsMovil > img{
+        width: 33.3333%;
+    }
+    .infoView{
+        margin: 0!important;
+    }
+    .selectColor{
+        margin-top: 3vh;
+    }
+    .btnView{
+        margin-top: 3vh;
+    }
+    .reBtn{
+        display: block;
+        padding: 4vh 0;
+    }
+    .reBtn > button{
+        margin: 1vh 0;
+    }
+    .recommended{
+        display: block;
+        padding: 0;
+        padding-top: 1vh;
+    }
+    .recommendedDiv{
+        padding: 1vh 0;
+    }
+    .p{
+        padding-bottom: 2vh;
+    }
+}

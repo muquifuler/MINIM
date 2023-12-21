@@ -1,0 +1,120 @@
+.deliveryAddress > h3{
+    display: flex;
+}
+
+.deliveryAddress > h3 > a{
+    margin-left: auto;
+    font-weight: 500;
+}
+
+.deliveryAddress > div > p{
+    font-size: 1.6vh;
+    margin: .5vh 0;
+}
+
+
+.payMethods{
+}
+
+.payMethods > img{
+    height: 100%;
+    margin: 1vh;
+}
+
+.btnCrypto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCrypto > button{
+   outline: none;
+   cursor: pointer;
+   padding: 1% 10%;
+   border: solid 2px transparent;
+   border-bottom: solid 0 transparent!important;
+   background-color: var(--color-2);
+   color: var(--color-4);
+   font-size: 1.7vh;
+   border-radius: .5vh .5vh 0 0;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+}
+
+.btnSelCr{
+    border: solid 2px var(--color-3)!important;
+    
+}
+
+.payCrpyto{
+}
+
+.topCr{
+    margin-bottom: 1vh;
+    padding: 2% 0;
+    text-align: center;
+    border: solid 2px var(--color-3);
+    border-radius: 3px;
+}
+
+.topCr > p{
+}
+
+.topCr > div{
+    height: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topCr > div > svg{
+    height: 100%;
+    margin-right: .5vw;
+}
+
+.sendCr{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    border: solid 2px var(--color-3);
+    padding: 1% 0;
+    margin: 1% 0;
+    border-radius: 3px;
+}
+
+.sendCr > svg{
+    height: 75%;
+    width: 10%;
+}
+
+.sendCr > span{
+    width: 10%;
+    font-size: 2vh;
+    text-align: left;
+}
+
+.sendCr > input{
+    height: 100%;
+    border: 0;
+    margin-left: auto;
+    width: 75%;
+    text-align: right;
+    padding-right: 5%;
+    font-size: 2vh;
+    outline: none;
+}
+
+.payCard{
+    text-align: center;
+    padding: 6vh;
+    font-size: 1.8vh;
+    border: solid 2px var(--color-3);
+    border-radius: 3px;
+}
+
+@media (max-width: 700px) {
+    .sendCr > input{
+        width: 60%;
+    }
+}

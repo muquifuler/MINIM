@@ -1,0 +1,17 @@
+.ROLLUP{
+    height: 4rem;
+    justify-content: center;
+    display: flex;
+    background-color: var(--color-4);
+}
+
+
+.ROLLUP__img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.ROLLUP-video{
+    height: 30rem;
+    width: 60rem;
+}

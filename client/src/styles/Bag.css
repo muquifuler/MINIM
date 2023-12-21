@@ -1,0 +1,293 @@
+.mb{
+    margin-bottom: auto;
+}
+
+.bag{
+    height: 98.4vh;
+    width: 25vw;
+    position: fixed;
+    right: -27vw;
+    top: 0;
+    background-color: var(--color-1);
+    overflow-y:scroll;
+    cursor: pointer;
+    z-index: 31;
+    border-left: solid 1px var(--color-6);
+    padding-top: 4vh;
+    transition: right 0.3s ease;
+}
+.openBag{
+    right: 0;
+}
+
+
+.bag::-webkit-scrollbar {
+    width: 1px;      
+  }
+  .bag::-webkit-scrollbar-track {
+    background: var(--color-2);          
+  }
+  .bag::-webkit-scrollbar-thumb {
+    background-color: var(--color-4);   
+  }
+
+.bag-header-{
+    padding: 0;
+    width: 25vw;
+    height: 4vh;
+    margin-top: -4vh;
+    background-color: var(--color-4);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bag-title-{
+    color: var(--color-2);
+    font-weight: 100;
+    margin-left: 2%;
+    font-size: 2.5vh;
+}
+
+.bag-header- > svg{
+    height: 70%;
+    margin-right: 2%;
+}
+
+.p-tocart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+    border-bottom: solid 1px var(--color-4);
+    height: 17vh;
+}
+
+.img-tocart{
+    height: 100%;
+    width: 30%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.img-tocart > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.p-tocart-string{ 
+    width: 68%;
+    height: 100%;
+    font-size: 1.5vh;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+}
+
+.p-tocart-string > svg{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    height: 13%;
+}
+
+
+.shopNameP{
+    background-color: var(--color-3); 
+    color: var(--color-1); 
+    font-size: 1.2vh; 
+    padding: 1.5% 2%; 
+    margin: 2% 0;
+    text-shadow: 1px 1px 3px rgba(80, 80, 80, 0.63);
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.p-tocart-string > p{
+    width: 80%;
+    
+}
+
+
+.tocart-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moreMinus{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: solid .1vh var(--color-6);
+    border-radius: 2px;
+}
+
+.moreMinus > span{
+    font-size: 80%;
+}
+
+.moreMinus > button{
+    width: 33%;
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 100%;
+}
+
+.tocart-price{
+    font-size: 2vh;
+    margin-left: auto;
+    margin-right: .5vh;
+}
+
+.tocart-price-disc{
+    font-size: 1.5vh;
+    text-decoration:line-through;
+    color: rgb(204, 0, 0);
+}
+
+.tocart-delete:hover {
+    border: solid 1px var(--color-2);
+    background-color: var(--color-4);
+    transition-duration: .2s;
+    color: var(--color-2);
+}
+
+.bag-pay{
+    position: fixed;
+    bottom: 0;
+    width: 25vw;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    padding: 2vh 0;
+    border-top: solid 1px black;
+}
+
+.bag-pay > .nvLink{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-2);
+    width: 90%;
+    margin-left: 5%;
+    padding: 1vh 0;
+    font-weight: 600;
+    border-radius: .5vh;
+    background-color: var(--color-4);
+    border: none;
+    cursor: pointer;
+}
+
+.bag-pay > div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0 5%;
+    margin-bottom: 2vh;
+
+}
+
+.bag-pay > div > span{
+    color: var(--color-4);
+    font-weight: 600;
+}
+
+.bagNone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 45vh;
+    font-size: 2vh;
+}
+
+
+@media (max-width: 1400px) {
+    .bag{
+        width: 30vw;
+        right: -32vw;
+    }
+    .openBag{
+        right: 0;
+    }
+    .bag-header-{
+        width: 30vw;
+    }
+    .bag-pay{
+        width: 30vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .bag{
+        width: 35vw;
+        right: -37vw;
+    }
+    .openBag{
+        right: 0;
+    }
+    .bag-header-{
+        width: 35vw;
+    }
+    .bag-pay{
+        width: 35vw;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .bag{
+        width: 40vw;
+        right: -42vw;
+    }
+    .openBag{
+        right: 0;
+    }
+    .bag-header-{
+        width: 40vw;
+    }
+    .bag-pay{
+        width: 40vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .bag{
+        width: 45vw;
+        right: -47vw;
+    }
+    .openBag{
+        right: 0;
+    }
+    .bag-header-{
+        width: 45vw;
+    }
+    .bag-pay{
+        width: 45vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .bag{
+        width: 100vw;
+        right: -102vw;
+        border: none;
+    }
+    .openBag{
+        right: 0;
+    }
+    .bag-header-{
+        width: 100vw;
+    }
+    .bag-pay{
+        width: 100vw;
+    }
+}
