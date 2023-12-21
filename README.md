@@ -1,5 +1,8 @@
 # MINIM
 Online clothing store that accepts payments with stripe and blockchain
+
+
+
 Working...
 
 https://minim.uxvision.es/
