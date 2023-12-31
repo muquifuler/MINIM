@@ -5,7 +5,6 @@ Online clothing store that accepts payments with stripe and blockchain
 
 Working...
 
-https://minim.uxvision.es/
 
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/ba51239e-7c91-401d-93a4-953179a7a8e2)
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/314bfbec-4c5e-41f3-832a-63626c11a1a0)
