@@ -12,6 +12,7 @@ https://minim.uxvision.es/
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/477c8239-cfc3-484c-b4c0-87e2c45096f2)
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/47c5d585-570d-426b-9af4-fd97af783543)
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/0e00ee20-93a4-470c-815b-3864b307f3f1)
+![image](https://github.com/muquifuler/MINIM/assets/57547835/654bd4f6-d78f-4cb6-8c82-39d8332c91fa)
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/e8f66b19-69f9-48b5-983e-30f351640b32)
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/d1e46fa6-c164-486b-bcbe-e40bd6281815)
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/0335ec31-4de1-494b-957b-57bfd327626b)
