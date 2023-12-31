@@ -7,6 +7,7 @@ Working...
 
 https://minim.uxvision.es/
 
+![image](https://github.com/muquifuler/MINIM/assets/57547835/16e9896c-880a-4443-8947-ef39f48b060e)
 
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/ee3e3c36-9103-44e8-a286-7747422a0068)
 ![image](https://github.com/muquifuler/MINIM/assets/57547835/0e00ee20-93a4-470c-815b-3864b307f3f1)
